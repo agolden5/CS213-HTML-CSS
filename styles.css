@@ -1,0 +1,112 @@
+
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url("/Assignment1/images/background.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    border: 8px solid #ffc0cb;
+    background-color: white;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 640px;
+    height: 360px;
+}
+
+figcaption {
+    color: #fff;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ffc0cb;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-left: 4px solid #ffc0cb;
+    margin: 10px 0;
+}
+
+#title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 28px;
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.section-header {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: white wavy underline;
+    background-color: #ffc0cb;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.pink-subheader {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.text {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.cookies-review {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffc0cb;
+}
+
+.cookies-review th, .cookies-review td {
+    border: 2px dotted white;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.cookies-review th {
+    background-color: #333;
+}

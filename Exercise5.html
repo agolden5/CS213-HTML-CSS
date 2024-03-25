@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 5 - Participation - CSS</title>
+    <style>
+      table {
+        width: 750px;
+        border: solid;
+        font-family: Arial, sans-serif;
+        background-color: #71ffe1;
+      }
+      th, td {
+        padding: 10px;
+      }
+      tr:nth-child(even) {
+        background-color: #80abff;
+      }
+      th {
+        text-transform: uppercase;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #666;
+      }
+      .numeric {
+        text-align: right;
+      }
+      .text {
+        text-align: left;
+      }
+    </style>
+</head>
+<body>
+<h1>First Edition Auctions</h1>
+<table>
+  <tr>
+    <th class="text"><strong>Author</strong></th>
+    <th class="text"><strong>Title</strong></th>
+    <th class="numeric"><strong>Reserve Price</strong></th>
+    <th class="numeric"><strong>Current Bid</strong></th>
+  </tr>
+  <tr>
+    <td class="text">E.E. Cummings</td>
+    <td class="text">Tulips & Chimneys</td>
+    <td class="numeric">$2,000.00</td>
+    <td class="numeric">$2,642.50</td>
+  </tr>
+  <tr>
+    <td class="text">Charles d'Orleans</td>
+    <td class="text">Poems</td>
+    <td class="numeric"></td>
+    <td class="numeric">$5,866.00</td>
+  </tr>
+  <tr>
+    <td class="text">T.S. Eliot</td>
+    <td class="text">Poems 1909-1925</td>
+    <td class="numeric">$1,250.00</td>
+    <td class="numeric">$8,499.34</td>
+  </tr>
+  <tr>
+    <td class="text">Sylvia Plath</td>
+    <td class="text">The Colossus</td>
+    <td class="numeric"></td>
+    <td class="numeric">$1,031.72</td>
+  </tr>
+</table>
+
+<p>I have run this page through W3C HTML and CSS validators and meets all the W3C standards for HTML and CSS</p>
+
+<a href="index.html"> exercise 1</a>
+</body>
+</html>
